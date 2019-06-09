@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Category">
+            <menu>
+        <item
+            android:id="@+id/nav_ayam"
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:title="AYAM" />
+        <item
+            android:id="@+id/nav_daging"
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:title="DAGING" />
+        <item
+            android:id="@+id/nav_ikan"
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:title="IKAN" />
+        <item
+            android:id="@+id/nav_tahu"
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:title="TAHU" />
+        <item
+            android:id="@+id/nav_sayuran"
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:title="SAYURAN" />
+        <item
+            android:id="@+id/nav_sambal"
+            android:icon="@drawable/ic_room_service_black_24dp"
+            android:title="SAMBAL" />
+            </menu>
+
+        </item>
+
+    </group>
+
+
+</menu>
